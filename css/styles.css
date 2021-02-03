@@ -1,0 +1,48 @@
+body{
+        background: url(../images/piza.jpg) no-repeat center;
+        background-size: cover;
+       color:blue;      
+}
+h1{background-color: white;
+padding: 20px;
+box-shadow:5px 5px 20px;
+border-radius:15px;
+margin-top: 20px;
+margin-right: 200px;
+justify-content: center;
+margin-left: 200px;
+}
+.info{
+     background-color: white;
+     padding-left:20px;
+     justify-content: center;
+}
+.check{
+     text-align: center;
+     display: none;
+     justify-content: center;
+     background-color: white;
+     margin-left: 200px;
+margin-right: 200px;
+ }
+#form{
+     box-shadow:5px 5px 20px;
+    border-radius:15px;
+    padding:20px;
+    margin-left: 200px;  
+    margin-right: 200px;
+    background-color:lightgrey;
+}
+#story {
+     display: none;
+   }
+.paragraph{
+     
+     margin-top:0.5%;
+     color:blue;
+     padding: 20px;
+     justify-content: center;
+     max-width: 500px;
+     margin-left: 300px;
+
+    }

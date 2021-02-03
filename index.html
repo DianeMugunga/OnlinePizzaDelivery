@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Pizza Store</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+ <script src="js/scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <div><h1>Welcome to Online Pizza Store</h1></div>
+        </div>
+        <div class="jumbotron" id="form">
+          
+            <form id="form">
+                 <h4>MAKE ORDER!!!</h4>
+                    <div class="form-group">
+         choose size:<br>
+                        <input type="radio" value=700 name="sizes" required> Small</option>
+                        <input type="radio"  value=800 name="sizes" required>Medium</option>
+                        <input type="radio" value=1000 name="sizes" required>Large</option><br>
+                        choose crust:<br>
+                        <input type="radio" value=200 name="crusts" required>Crispy</option>
+                        <input type="radio" value=300 name="crusts" required>Stuffed</option>
+                        <input type="radio" value=40 name="crusts" > Gluten-free </option><br>
+                       choose topping:<br>
+                        <input type="checkbox" value=250  id=toppings>Mushroom</option><br>
+                        <input type="checkbox" value=300  id="toppings">Onions</option><br>
+                        <input type="checkbox" val=350  id="toppings">Sausage</option><br>
+                        select Delivery: 
+                        <select  id="delivery" required><br>
+                            <option label="Delivery:500RWF" value="500">Delivery:500RWF</option>
+                            <option label="Pick Up:0Rwf" value="0">Pick Up:0Rwf</option>
+                            <br><br><button type="submit" id="btn"  label="">Delivery</button>
+                          </select><br>
+                      
+                      <label for="uname">Number of Pizza:</label><br>
+                      <input type="number" class="form-control" id="inputNumber" placeholder="Number of Pizza..." required>
+                        
+                      </select>
+                      </div>
+                    <button type="submit" class="btn btn-primary" >CheckOut</button>
+                  </form>
+                </div>
+                <div class="check">
+                  <h2>Summary</h2>
+                  <p>Pizza Size : 
+                  <span id="Size"></span></p>
+                  <p> Crust : 
+                  <span id="Crust" ></span></p>
+                  <p>Toppings :
+                  <span id="Toppings"></span> </p>
+                  <p>The quantity :
+                    <span id="quantity"></span> </p>
+                  <p>The Delivery :
+                    <span id="Delivery" ></span> </p>
+                  <strong><p>The Total Price is : 
+                  <span id="out" ></span></p></strong>
+                </div>
+    <div>
+      <div class=paragraph>
+      <div>
+      <strong>  <h2>CONTACT US</h2></strong> 
+      </div>
+      
+      <form class="form-group" id="form1">
+          <label><input type="text" id="name" placeholder="Name..." class="form-control" required ></label>
+          <label><input type="text" id="email" placeholder="Email..." class="form-control" required></label><br>
+          <label><textarea  id="comment" placeholder="Your Message here..." rows="5" cols="30" class="form-control"></textarea></label>
+          <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
+    </div>
+</body>
+</html>
