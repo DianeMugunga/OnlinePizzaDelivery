@@ -1,5 +1,4 @@
 # OnlinePizzaDelivery
-# pizza
 #Author: Diane Mugunga
 
 #Date:11ST October
